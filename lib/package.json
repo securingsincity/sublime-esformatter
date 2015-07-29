@@ -9,7 +9,28 @@
   "dependencies": {
     "browserify": "x",
     "esformatter": "0.7",
-    "mout": "^0.11.0"
+    "mout": "^0.11.0",
+    "esformatter-config-algolia": "^1.2.0",
+    "esformatter-eol-last": "^1.0.0",
+    "esformatter-parseint": "^1.0.3",
+    "esformatter-quotes": "^1.0.3",
+    "esformatter-remove-trailing-commas": "^1.0.1",
+    "esformatter-semicolons": "^1.1.1",
+    "esformatter-shebang-ignore": "^1.0.0",
+    "esformatter-spaced-lined-comment": "^2.0.1",
+    "esformatter-var-each": "^2.0.1"
+  },
+  "esformatter": {
+    "plugins": [
+      "esformatter-quotes",
+      "esformatter-semicolons",
+      "esformatter-parseint",
+      "esformatter-var-each",
+      "esformatter-eol-last",
+      "esformatter-shebang-ignore",
+      "esformatter-remove-trailing-commas",
+      "esformatter-spaced-lined-comment"
+    ]
   },
   "license": "MIT"
 }
